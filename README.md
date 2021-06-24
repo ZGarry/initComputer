@@ -11,3 +11,4 @@
 2. IDE: 无脑推荐intellij家的。不论你开发什么语言。当然如果你开发matlab就当我没说。
 3. 截屏工具:[snipaste](https://zh.snipaste.com/)
 4. Gif录制工具:[ScreenToGif](https://www.screentogif.com/)
+5. 压缩包工具:[7Z](https://www.7-zip.org/download.html)
