@@ -22,6 +22,7 @@
 ## 物理准备
 
 除了需要软件准备之外，现实世界中还需要准备。
+
 1. 舒服椅子。
 2. 双显示器。
 
@@ -33,8 +34,34 @@
 4. 网页下载工具:[httrack](https://www.httrack.com/)
 
 ## 量化相关
+
 1. 国金量化qmt、miniqmt
 
+## 初始化vscode
+
+导出vscode所有插件：
+
+> code --list-extensions > extensions.txt
+
+导入：
+
+> cat extensions.txt |% { code --install-extension $_}
+
 ## 初始化python
+
 官网下载python。不推荐下载conda，没有必要，而且还导致速度变慢非常多。
-IDE：vscode，下载Jupyter扩展
+IDE：vscode，下载Jupyter扩展，python扩展，autopep8扩展即可。
+
+设置清华镜像：
+
+> pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+导出python所有依赖:
+
+> pip freeze > requirements.txt
+
+你可以使用以下命令安装 `requirements.txt`文件中列出的所有包：
+
+```
+pip install -r requirements.txt
+```
