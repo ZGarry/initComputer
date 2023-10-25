@@ -34,3 +34,7 @@
 
 ## 量化相关
 1. 国金量化qmt、miniqmt
+
+## 初始化python
+官网下载python。不推荐下载conda，没有必要，而且还导致速度变慢非常多。
+IDE：vscode，下载Jupyter扩展
