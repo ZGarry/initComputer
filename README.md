@@ -47,6 +47,10 @@
 
 > cat extensions.txt |% { code --install-extension $_}
 
+## 初始化VScode
+
+登录账号，点击同步即可。Vscode只会维护一份同步镜像，一直使用远程的即可。
+
 ## 初始化python
 
 官网下载python。不推荐下载conda，没有必要，而且还导致速度变慢非常多。
