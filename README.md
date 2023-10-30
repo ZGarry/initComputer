@@ -54,7 +54,7 @@
 ## 初始化python
 
 官网下载python。不推荐下载conda，没有必要，而且还导致速度变慢非常多。
-IDE：vscode，下载Jupyter扩展，python扩展，autopep8扩展即可。
+IDE：vscode，下载Jupyter扩展，python扩展，autopep8扩展即可。(建议单行支持150字符，大显示器屏幕相对更宽)
 
 设置清华镜像：
 
